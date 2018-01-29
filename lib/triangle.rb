@@ -8,7 +8,7 @@ class Triangle
   end
 
   def kind
-    if a == b == c
+    if a = b = c
       :equilateral
     elsif a == b || a == c || b == c
       :isosceles
@@ -16,7 +16,7 @@ class Triangle
       :scalene
     end
   end
-  
+
 end
 
 class TriangleError < StandardError

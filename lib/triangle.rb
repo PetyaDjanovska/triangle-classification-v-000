@@ -11,7 +11,7 @@ class Triangle
   def kind
     if a == b && b == c
       :equilateral
-    elsif  b == c#a == @b || @a == @c || @b == @c
+    elsif  a == b || a == c || b == c
       :isosceles
     # else
     #   :scalene

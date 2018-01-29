@@ -5,10 +5,7 @@ class Triangle
     @a = a
     @b = b
     @c = c
-    rescue ExceptionName
-
-    end
-    end
+  end
 end
 
 class TriangleError < StandardError
